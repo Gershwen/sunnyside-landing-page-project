@@ -8,10 +8,6 @@ toggleButton.addEventListener('click', ()=>{
 
 });
 
-// when clicking the hamburger menu the down arrow svg should disappear
-
-
-
 // When clicking on a navbar link it should change its color 
 
 $("a").click(function() {

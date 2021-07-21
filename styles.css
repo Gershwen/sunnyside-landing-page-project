@@ -31,6 +31,9 @@ main {
     width: 100%;
     background-image: url(images/mobile/image-header.jpg);
     background-size: contain;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 
@@ -41,15 +44,21 @@ main {
     align-items: center;
     background-color:transparent;
     color: white;
+    padding: 4.5% 3% 0 3%;
+
+}
+
+.brand-title-container {
+
+    padding-top:3%;
 
 }
 
 .brand-title {
 
-    font-family: 'Barlow', sans-serif;
-    font-weight: 600;
-    font-size: 1.5rem;
-    margin: .5rem;
+    width: 123.64px;
+    height: 24px;
+
 
 }
 
@@ -59,7 +68,7 @@ main {
     justify-content: center;
     width: 100%;
     height: 107.48px;
-    padding-top:100px;
+    padding-top:130px;
 
 }
 
@@ -132,7 +141,7 @@ img {
     width:100%;
     height: auto;
     justify-content: space-evenly;
-    padding: 64px 24px 64px 24px;
+    padding: 10% 16%;
     align-items: center;
 
 }
@@ -236,6 +245,7 @@ a {
 
 }
 
+/* Graphic & Photography container */
 .cherry-container {
 
     background-image: url(images/mobile/image-graphic-design.jpg);
@@ -246,6 +256,9 @@ a {
     background-size: contain;
     justify-content: flex-end;
     flex-direction: column;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 
 }
 
@@ -259,6 +272,9 @@ a {
     background-size: contain;
     justify-content: flex-end;
     flex-direction: column;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 
 }
 
@@ -274,25 +290,16 @@ a {
 
 }
 
+/* Testimonial start */
+
 .client-testimonials {
 
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding:64px 24px 0 24px;
+    padding:8%;
     margin: 0;
-    width: 100%;
-    height: auto;
-
-}
-
-.testimonials {
-
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    justify-content: space-evenly;
     width: 100%;
     height: auto;
 
@@ -300,6 +307,7 @@ a {
 
 h4 {
 
+    position: relative;
     width: 100%;
     text-align: center;
     height: 20px;
@@ -311,7 +319,7 @@ h4 {
     letter-spacing: 4px;
     color: #A7AAAD;
     margin: 0;
-    padding:0 0 64px 0;
+    padding-bottom: 15%;
 
 }
 
@@ -349,7 +357,7 @@ h4 {
     letter-spacing: -0.128571px;
     color: #5B636D;
     margin:0;
-    padding:0;
+    padding:0 10% 0 10%;
 
 }
 
@@ -384,15 +392,27 @@ h6 {
 
 }
 
+/* Testimonial end */
+
 /* Gallery start */
-/* CSS Grid */
+
 .gallery-container {
 
     display: grid;
-    grid-gap: 0;
     width: 100%;
-    height: 375px;
+    height:auto;
     grid-template-columns: auto auto;
+    grid-row-gap:0px;
+
+}
+
+.gallery-img-container {
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:0;
 
 }
 
@@ -402,30 +422,51 @@ h6 {
     width:100%;
 
 }
+
+.gallery-img-desktop {
+
+    display: none;
+
+}
 /* Gallery end */
 
-/* footer start */
+/* Footer start */
 footer {
 
     background-color: #90D4C6;
     width: 100%;
-    height: 350px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding:10% 5% 10% 5%;
 
 
 }
 
-.footer-h6 {
+.footer-container {
 
     width: 100%;
-    text-align: center;
-    height: 33px;
-    color: #2C7566;
-    font-family: "Barlow";
-    font-weight: 600;
-    font-size: 33px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.logo-container {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+
+}
+
+.logo {
+
+    display: block;
+    margin: auto;
 
 }
 
@@ -435,25 +476,25 @@ display: flex;
 justify-content: space-between;
 width: 100%;
 height: auto;
-padding: 0 39px 0 39px;
+padding: 0 10% 0 10%;
 
 }
 
 .footer-links {
 
-    display: inline-flex;
+    display: flex;
     text-decoration: none;
     height: 25px;
-    font-family: Barlow;
+    font-family: "Barlow";
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: -0.128571px;
     color: #458D7E;
-    padding:0;
-    margin:0;
+    padding-top:4%;
     text-transform: none;
+    justify-content: center;
 
 }
 
@@ -462,38 +503,48 @@ padding: 0 39px 0 39px;
     display: flex;
     width:100%;
     height: auto;
-    padding: 88px 107px 0 104px; 
+    padding: 20% 30% 0% 30%;
     justify-content: space-between;
     align-content: center;
     
 
 }
 
+svg {
+
+    fill:#2C7566;
+
+}
+
 .attribution { 
 
     position: relative;
-    top: 55px;
-    font-size: 11px; 
+    top:25px;
+    font-size: 10px; 
     text-align: center; 
 
          }
 
 .attribution a {
     
-    font-size: 12px;
+    font-size: 10px;
     color: hsl(228, 45%, 44%); 
 }
+
+/* Footer end */
+
+
 
 .toggle-button {
 
     position: absolute;
-    top: .75rem;
-    right: 1rem;
+    top: 35px;
+    right: 24px;
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height: 21px;
+    width: 24px;
+    height: 18px;
 
 }
 
@@ -506,6 +557,7 @@ padding: 0 39px 0 39px;
 
 }
 
+/* Responsive navbar */
 @media (max-width: 600px){
     
     .toggle-button {
@@ -541,16 +593,19 @@ padding: 0 39px 0 39px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 80%;
+        width: 95%;
         height: 329px;
         top: 82px;
         background-color: white;
-        padding: 0;
         box-shadow: 2px;
         z-index: 1;
+        border-top: 1rem solid #3ebfff;
+        border-right: 1rem solid white;
+        margin-top: 20px;
     
     }
 
+    /*  */
 
     .navbar-links li a {
 
@@ -599,13 +654,25 @@ padding: 0 39px 0 39px;
 
         height: 800px;
         background-image: url(images/desktop/image-header.jpg);
-        background-size:contain;
 
+    }
+
+    .navbar {
+
+        padding: 1.5% 2% 0 2%;
+
+    }
+
+    .brand-title-container {
+
+        padding-top:1%;
+    
     }
 
     .brand-title {
 
-        font-size: 33px;
+        width: 170px;
+        height: 33px;
 
 
     }
@@ -617,6 +684,8 @@ padding: 0 39px 0 39px;
         align-items: center;
         color: white;
         border-radius: 28px;
+        height: 56px;
+        width: 140px;
        
     }
 
@@ -635,10 +704,25 @@ padding: 0 39px 0 39px;
 
     .navbar-links li:hover{
         
-        background-color: white;
+        background-color:rgb(255, 255, 255, 0.25);
         border-radius: 28px;
-        opacity: 0.25;
-        
+                
+}
+
+
+h1 {
+
+    height: 69px;
+    font-size: 56px;
+    line-height: 69px;
+    letter-spacing: 8.75px;
+
+}
+
+.down-arrow {
+
+    padding-top: 140px;
+
 }
 
 .row {
@@ -668,7 +752,7 @@ padding: 0 39px 0 39px;
 
 }
 
-img {
+.mobile-image {
 
     display: none;
 
@@ -684,7 +768,7 @@ img {
 
 .container {
 
-    padding: 158px 110px 0 165px;
+    padding: 10% 10% 0 9%;
     justify-content: flex-start;
     align-items: flex-start;
 
@@ -741,6 +825,115 @@ a {
 
 }
 
+/* Desktop Testimonials desktop start */
+
+.row-4 {
+
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+
+}
+
+h4 {
+  
+    height: 25px;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 5px;
+    padding-bottom: 5%;
+
+}
+
+/* Desktop testimonial end */
+
+.row-5 {
+
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+
+
+}
+
+.gallery-img-desktop {
+
+    display: flex;
+    height: auto;
+    width: 100%;
+
+}
+
+.gallery-img {
+
+    display: none;
+
+}
+
+/* Desktop footer start */
+
+
+footer {
+
+    padding:5% 40% 5% 40%;
+
+}
+
+
+.footer-h6 {
+
+    height: 33px;
+    font-size: 33px;
+
+}
+
+.footer-about-div {
+
+padding: 0 10% 0 10%;
+
+}
+
+.footer-links {
+
+    height: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    color: #458D7E;
+    padding-top:0;
+    margin-top: 4%;
+
+}
+
+.footer-links:hover {
+
+    color: white;
+
+}
+
+.contact {
+
+    padding: 20% 25% 0% 25%;
+    
+}
+
+svg:hover {
+
+    fill: #FFFFFF;
+   
+}
+
+
+.attribution { 
+
+    top:50px;
+
+         }
+
+
+/*Desktop Footer end */
 
 
     .col-1 {width: 8.33%;}
