@@ -558,7 +558,7 @@ svg {
 }
 
 /* Responsive navbar */
-@media only screen and (max-width: 600px){
+@media only screen and  (max-width: 600px){
     
     .toggle-button {
 
@@ -935,7 +935,6 @@ svg:hover {
 
 /*Desktop Footer end */
 
-
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -948,6 +947,5 @@ svg:hover {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;} 
-
 
   }
