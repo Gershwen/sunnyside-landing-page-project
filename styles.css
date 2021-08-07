@@ -17,7 +17,7 @@
 
 body {
     
-    font-size: 18px;
+    font-size: 1.1rem;
     margin:0;
     padding:0;
     align-items: center;
@@ -27,11 +27,10 @@ body {
 
 .main {
 
-    height: 538px;
+    height:36rem;
     width: 100%;
     background-image: url(images/mobile/image-header.jpg);
-    background-size: contain;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -56,9 +55,8 @@ body {
 
 .brand-title {
 
-    width: 123.64px;
-    height: 24px;
-
+    width: 7.6rem;
+    height: 1.5rem;
 
 }
 
@@ -67,8 +65,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 107.48px;
-    padding-top:130px;
+    padding-top: 8rem;
 
 }
 
@@ -91,12 +88,12 @@ body {
     text-decoration: none;
     padding: 1rem;
     display: block;
-    height: 25px;
+    height: 1.56rem;
     font-family: "Barlow";
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 100%;
+    line-height: 1.56rem;
     letter-spacing: -0.128571px;
     color: #FFFFFF;
     text-transform:none;
@@ -105,18 +102,18 @@ body {
 
 h1 {
 
-    height: 98px;
+    height: 6.1rem;
     width: 100%;
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
-    font-size: 40px;
-    line-height: 49px;
+    font-size: 2.9rem;
+    line-height: 3rem;
     text-align: center;
-    letter-spacing: 6.25px;
+    letter-spacing: 0.37rem;
     text-transform: uppercase;
     color: #FFFFFF;   
-    padding-top: 88px;
+    padding-top: 5.5rem;
 
 }
 
@@ -149,12 +146,12 @@ img {
 h2 {
 
     width: 100%;
-    height: 78px;
+    height: 4.87rem;
     font-family: "Fraunces";
     font-style: normal;
     font-weight: 900;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 2rem;
+    line-height: 2.4rem;
     letter-spacing: -0.228571px;
     color: #24303E;
     text-align: center;
@@ -168,13 +165,13 @@ h3 {
     font-family: "Fraunces";
     font-style: normal;
     font-weight: 900;
-    font-size: 28px;
-    line-height: 35px;
+    font-size: 1.7rem;
+    line-height: 2.18rem;
     letter-spacing: -0.2px;
     color: #052C3B;
     mix-blend-mode: normal;
     opacity: 0.75;
-    padding: 0 0 27px 0;
+    padding: 0 0 7% 0;
     margin: 0;
 
 }
@@ -189,12 +186,12 @@ h3 {
 p {
 
     width: 100%;
-    height: 150px;
+    height: 9.37rem;
     font-family: "Barlow";
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 100%;
+    line-height: 1.87rem;
     text-align: center;
     letter-spacing: -0.128571px;
     color: #808397;
@@ -204,13 +201,13 @@ p {
 a {
 
     text-align: center;
-    height: 25px;
+    height: 1.56rem;
     width: 100%;
     font-family: "Fraunces";
     font-style: normal;
     font-weight: 900;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 1rem;
+    line-height: 1.56rem;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #24303E;
@@ -222,26 +219,26 @@ a {
 .yellow-line { 
 
     position:relative;
-    bottom: 11px;
-    height: 10px;
-    width: 137px;
+    bottom: 0.7rem;
+    height: 0.6rem;
+    width: 8.56rem;
     background: #FAD400;
     mix-blend-mode: normal;
     opacity: 0.25;
-    border-radius: 28px;
+    border-radius: 1.75rem;
 
 }
 
 .pink-line {
     
     position:relative;
-    bottom: 11px;
-    height: 10px;
-    width: 137px;
+    bottom: 0.7rem;
+    height: 0.6rem;
+    width: 8.5rem;
     background: #FE7766;
     mix-blend-mode: normal;
     opacity: 0.25;
-    border-radius: 28px;
+    border-radius: 1.75rem;
 
 }
 
@@ -252,13 +249,13 @@ a {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 600px;
-    background-size: contain;
+    height: 37.5rem;
+    background-size: cover;
     justify-content: flex-end;
     flex-direction: column;
     background-size: 100%;
     background-position: 50% 50%;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
 
 }
 
@@ -268,13 +265,13 @@ a {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 600px;
-    background-size: contain;
+    height: 37.5rem;
+    background-size: cover;
     justify-content: flex-end;
     flex-direction: column;
     background-size: 100%;
     background-position: 50% 50%;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
 
 }
 
@@ -284,8 +281,8 @@ a {
     width: 100%;
     justify-content: center;
     flex-direction: column;
-    height: 143px;
-    padding: 0 24px 140px 24px;
+    height: 8.9rem;
+    padding: 0 10% 15% 10%;
     margin: 0;
 
 }
@@ -310,12 +307,12 @@ h4 {
     position: relative;
     width: 100%;
     text-align: center;
-    height: 20px;
+    height: 1.25rem;
     font-family: "Fraunces";
     font-style: normal;
     font-weight: 900;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 1.25rem;
     letter-spacing: 4px;
     color: #A7AAAD;
     margin: 0;
@@ -339,9 +336,9 @@ h4 {
 .testimonial-pic {
 
     border-radius: 100%;
-    width: 72px;
-    height: 72px;
-    margin: 0 0 32px 0;
+    width: 4.5rem;
+    height: auto;
+    margin: 0 0 2rem 0;
 
 }
 
@@ -350,8 +347,8 @@ h4 {
     font-family: "Barlow";
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.1rem;
+    line-height: 2rem;
     width: 100%;
     text-align: center;
     letter-spacing: -0.128571px;
@@ -367,13 +364,13 @@ h5 {
     font-family: "Fraunces";
     font-style: normal;
     font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.1rem;
+    line-height: 1.37rem;
     text-align: center;
     letter-spacing: -0.128571px;
     color: #24303E;
     margin:0;
-    padding:0 0 9px 0;
+    padding:0 0 0.56rem 0;
 }
 
 h6 {
@@ -382,13 +379,13 @@ h6 {
     font-family: "Barlow";
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 0.87rem;
+    line-height: 1.56rem;
     text-align: center;
     letter-spacing: -0.1px;
     color: #A7AAAD;
     margin:0;
-    padding:0 0 64px 0;
+    padding:0 0 4rem 0;
 
 }
 
@@ -459,7 +456,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 
 }
 
@@ -484,12 +481,12 @@ padding: 0 10% 0 10%;
 
     display: flex;
     text-decoration: none;
-    height: 25px;
+    height: 1.56rem;
     font-family: "Barlow";
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.1rem;
+    line-height: 1.56rem;
     letter-spacing: -0.128571px;
     color: #458D7E;
     padding-top:4%;
@@ -519,15 +516,15 @@ svg {
 .attribution { 
 
     position: relative;
-    top:25px;
-    font-size: 10px; 
+    top:1.5rem;
+    font-size: 0.6rem; 
     text-align: center; 
 
          }
 
 .attribution a {
     
-    font-size: 10px;
+    font-size: 0.6rem;
     color: hsl(228, 45%, 44%); 
 }
 
@@ -538,13 +535,13 @@ svg {
 .toggle-button {
 
     position: absolute;
-    top: 35px;
-    right: 24px;
+    top: 2.2rem;
+    right:1.5rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 24px;
-    height: 18px;
+    width: 1.5rem;
+    height: 1.1rem;
 
 }
 
@@ -558,7 +555,7 @@ svg {
 }
 
 /* Responsive navbar */
-@media only screen and  (max-width: 600px){
+@media only screen and  (max-width: 37.5em){
     
     .toggle-button {
 
@@ -594,14 +591,14 @@ svg {
         align-items: center;
         flex-direction: column;
         width: 95%;
-        height: 329px;
-        top: 82px;
+        height: 20.5rem;
+        top: 5.1rem;
         background-color: white;
         box-shadow: 2px;
         z-index: 1;
         border-top: 1rem solid #3ebfff;
         border-right: 1rem solid white;
-        margin-top: 20px;
+        margin: 1.5rem 0 2.5rem 0;
     
     }
 
@@ -612,17 +609,17 @@ svg {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 56px;
-        width: 140px;
+        height: 3.5rem;
+        width: 8.75rem;
         font-family: "Barlow";
         font-style: normal;
         font-weight: 600;
-        font-size: 20px;
-        line-height: 25px;
+        font-size: 1.25rem;
+        line-height: 1.56rem;
         letter-spacing: -0.142857px;
         color: #808397;
         padding:0;
-        border-radius: 30px;
+        border-radius: 1.87rem;
        
     }
 
@@ -630,7 +627,7 @@ svg {
 
         font-family: "Fraunces";
         font-weight: bold;
-        font-size: 15px;
+        font-size: 0.9rem;
         letter-spacing: -0.107143px;
         text-transform: uppercase;
         color: #24303E;
@@ -647,12 +644,12 @@ svg {
 
 }
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 48em) {
     /* For desktop:  */
 
     .main {
 
-        height: 800px;
+        height: 50rem;
         background-image: url(images/desktop/image-header.jpg);
 
     }
@@ -671,8 +668,8 @@ svg {
 
     .brand-title {
 
-        width: 170px;
-        height: 33px;
+        width: 10.6rem;
+        height: 2rem;
 
 
     }
@@ -683,9 +680,9 @@ svg {
         justify-content: center;
         align-items: center;
         color: white;
-        border-radius: 28px;
-        height: 56px;
-        width: 140px;
+        border-radius: 1.75rem;
+        height: 3.5rem;
+        width: 8.75rem;
        
     }
 
@@ -693,7 +690,7 @@ svg {
 
         font-family: "Fraunces";
         font-weight: bold;
-        font-size: 15px;
+        font-size: 0.9rem;
         letter-spacing: -0.107143px;
         text-transform: uppercase;
         color: #24303E;
@@ -705,23 +702,23 @@ svg {
     .navbar-links li:hover{
         
         background-color:rgb(255, 255, 255, 0.25);
-        border-radius: 28px;
+        border-radius: 1.75rem;
                 
 }
 
 
 h1 {
 
-    height: 69px;
-    font-size: 56px;
-    line-height: 69px;
+    height: 4.3rem;
+    font-size: 3.5rem;
+    line-height: 4.3rem;
     letter-spacing: 8.75px;
 
 }
 
 .down-arrow {
 
-    padding-top: 140px;
+    padding-top: 8.75rem;
 
 }
 
@@ -790,13 +787,13 @@ p {
 a {
 
     text-align: start;
-    padding-left:10px;
+    padding-left:0.6rem;
 
 }
 
 .cherry-container {
 
-    height: 600px;
+    height: 37.5rem;
     background-image: url(images/desktop/image-graphic-design.jpg);
     background-size: cover;
     align-items: center;
@@ -806,7 +803,7 @@ a {
 
 .orange-container {
 
-    height: 600px;
+    height: 37.5rem;
     background-image: url(images/desktop/image-photography.jpg);
     background-size: cover;
     align-items: center;
@@ -838,9 +835,9 @@ a {
 
 h4 {
   
-    height: 25px;
-    font-size: 20px;
-    line-height: 25px;
+    height: 1.56rem;
+    font-size: 1.25rem;
+    line-height: 1.56rem;
     letter-spacing: 5px;
     padding-bottom: 5%;
 
@@ -884,8 +881,8 @@ footer {
 
 .footer-h6 {
 
-    height: 33px;
-    font-size: 33px;
+    height: 2rem;
+    font-size: 2rem;
 
 }
 
@@ -897,9 +894,9 @@ padding: 0 10% 0 10%;
 
 .footer-links {
 
-    height: 25px;
-    font-size: 18px;
-    line-height: 25px;
+    height: 1.56rem;
+    font-size: 1.1rem;
+    line-height: 1.56rem;
     letter-spacing: -0.128571px;
     color: #458D7E;
     padding-top:0;
@@ -928,7 +925,7 @@ svg:hover {
 
 .attribution { 
 
-    top:50px;
+    top:3.1rem;
 
          }
 
